@@ -1,2 +1,3 @@
-# java-examples
+# Java examples
+
 A repository for Java related tutorials
