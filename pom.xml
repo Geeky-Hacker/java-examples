@@ -10,5 +10,6 @@
 
   <modules>
     <module>mockito</module>
+    <module>assertj</module>
   </modules>
 </project>
