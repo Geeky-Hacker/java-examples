@@ -2,6 +2,7 @@ package com.geekyhacker.assertj;
 
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.assertj.core.api.Assertions.assertThatThrownBy;
+import static org.junit.jupiter.api.Assertions.assertThrows;
 
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
@@ -28,5 +29,10 @@ public class UserRepositoryTest {
         assertThatThrownBy(() -> userRepository.findByUsername("nonExistenceUsername"))
             .isInstanceOf(UserNotFoundException.class)
             .hasMessage("Cannot find username: nonExistenceUsername");
+    }
+
+    @Test
+    void shouldVerifyUserNotFoundExceptionIsThrown() {
+        assertThrows(UserNotFoundException.class, () -> userRepository.findByUsername("nonExistenceUsername"));
     }
 }
