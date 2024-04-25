@@ -12,5 +12,6 @@
     <module>mockito</module>
     <module>assertj</module>
     <module>cryptography</module>
+    <module>jdbc</module>
   </modules>
 </project>
