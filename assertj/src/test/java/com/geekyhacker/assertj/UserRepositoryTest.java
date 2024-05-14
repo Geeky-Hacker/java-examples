@@ -1,7 +1,9 @@
 package com.geekyhacker.assertj;
 
 import static org.assertj.core.api.Assertions.assertThat;
+import static org.assertj.core.api.Assertions.assertThatCode;
 import static org.assertj.core.api.Assertions.assertThatThrownBy;
+import static org.junit.jupiter.api.Assertions.assertDoesNotThrow;
 import static org.junit.jupiter.api.Assertions.assertThrows;
 
 import org.junit.jupiter.api.Test;
@@ -22,6 +24,12 @@ public class UserRepositoryTest {
         var result = userRepository.findByUsername("test");
 
         assertThat(result).isEqualTo(expected);
+    }
+
+    @Test
+    void shouldNotThrowExceptionWhenGettingUserByUsername() {
+        assertDoesNotThrow(() -> userRepository.findByUsername("test"));
+        assertThatCode(() -> userRepository.findByUsername("test")).doesNotThrowAnyException();
     }
 
     @Test
