@@ -27,9 +27,9 @@ public class UserRepositoryTest {
     }
 
     @Test
-    void shouldNotThrowExceptionWhenGettingUserByUsername() {
-        assertDoesNotThrow(() -> userRepository.findByUsername("test"));
-        assertThatCode(() -> userRepository.findByUsername("test")).doesNotThrowAnyException();
+    void shouldNotThrowExceptionWhenRetrievingUser() {
+        assertDoesNotThrow(() -> userRepository.findBy("test"));
+        assertThatCode(() -> userRepository.findBy("test")).doesNotThrowAnyException();
     }
 
     @Test
