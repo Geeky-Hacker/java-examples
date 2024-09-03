@@ -13,5 +13,6 @@
     <module>assertj</module>
     <module>cryptography</module>
     <module>jdbc</module>
+    <module>spring-boot</module>
   </modules>
 </project>
