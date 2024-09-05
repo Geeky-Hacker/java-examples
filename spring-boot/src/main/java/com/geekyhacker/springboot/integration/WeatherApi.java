@@ -13,12 +13,19 @@ public class WeatherApi {
   @Value("${api.endpoint}")
   private String apiEndpoint;
 
+  @Value("${api.key}")
+  private String apiKey;
+
   public double getCurrentTemperature() {
-    logger.info("Getting the current weather temperature from {} endpoint", apiEndpoint);
+    logger.info("Getting the current weather temperature from {} endpoint with key {}", apiEndpoint, apiKey);
     return -1;
   }
 
   public String getApiEndpoint() {
     return apiEndpoint;
+  }
+
+  public String getApiKey() {
+    return apiKey;
   }
 }

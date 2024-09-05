@@ -11,6 +11,14 @@ To run LocalStack in this project:
 $ docker-compose up
 ```
 
+To use AWS Secrets manager secret with the application, go to the `scripts` directory and run:
+
+```bash
+$ ./create_secret.sh
+```
+
+That creates a secret for `api.key` property of the application. Without that, the application defaults to `testKey` value and on test to `fakeApiKey` value.
+
 After that you can access the LocalStack environment on `http://localhost:4566`. For example, to get list of secrets:
 
 ```bash
