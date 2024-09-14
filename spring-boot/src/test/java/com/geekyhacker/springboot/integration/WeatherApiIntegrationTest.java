@@ -18,4 +18,11 @@ class WeatherApiIntegrationTest {
 
     assertEquals("https://dummyjson.com/test", result);
   }
+
+  @Test
+  void testGetApiKey() {
+    String apiKey = weatherApi.getApiKey();
+
+    assertEquals("fakeApiKey", apiKey);
+  }
 }
