@@ -14,5 +14,6 @@
     <module>cryptography</module>
     <module>jdbc</module>
     <module>spring-boot</module>
+    <module>design-pattern</module>
   </modules>
 </project>
