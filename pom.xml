@@ -15,5 +15,6 @@
     <module>jdbc</module>
     <module>spring-boot</module>
     <module>design-pattern</module>
+    <module>core-java</module>
   </modules>
 </project>
