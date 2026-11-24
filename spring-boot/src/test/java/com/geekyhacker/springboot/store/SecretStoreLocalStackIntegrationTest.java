@@ -31,7 +31,7 @@ class SecretStoreLocalStackIntegrationTest {
       """;
 
   @Container
-  private static final LocalStackContainer localStackContainer = new LocalStackContainer(DockerImageName.parse("localstack/localstack"))
+  private static final LocalStackContainer localStackContainer = new LocalStackContainer(DockerImageName.parse("localstack/localstack:4.4.0"))
       .withServices(LocalStackContainer.Service.SECRETSMANAGER)
       .withEnv("LOCALSTACK_HOSTNAME", "localhost")
       .withEnv("HOSTNAME", "localhost");
