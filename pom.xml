@@ -18,5 +18,6 @@
     <module>core-java</module>
     <module>spring-boot-aws-emulator</module>
     <module>value-class-readiness</module>
+    <module>zgc-startup-warmup</module>
   </modules>
 </project>
