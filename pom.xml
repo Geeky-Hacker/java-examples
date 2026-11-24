@@ -16,5 +16,6 @@
     <module>spring-boot</module>
     <module>design-pattern</module>
     <module>core-java</module>
+    <module>spring-boot-aws-emulator</module>
   </modules>
 </project>
