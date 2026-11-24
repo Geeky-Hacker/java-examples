@@ -17,5 +17,6 @@
     <module>design-pattern</module>
     <module>core-java</module>
     <module>spring-boot-aws-emulator</module>
+    <module>value-class-readiness</module>
   </modules>
 </project>
