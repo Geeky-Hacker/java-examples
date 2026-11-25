@@ -21,5 +21,6 @@
     <module>jvm-heap-oom-patterns</module>
     <module>spring-integration-allow-list-bypass</module>
     <module>hibernate-8-migration-basics</module>
+    <module>spring-ai-tool-confirmation-resume</module>
   </modules>
 </project>
