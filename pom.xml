@@ -20,5 +20,6 @@
     <module>value-class-readiness</module>
     <module>jvm-heap-oom-patterns</module>
     <module>spring-integration-allow-list-bypass</module>
+    <module>hibernate-8-migration-basics</module>
   </modules>
 </project>
