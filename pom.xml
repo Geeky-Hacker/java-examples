@@ -19,5 +19,6 @@
     <module>spring-boot-aws-emulator</module>
     <module>value-class-readiness</module>
     <module>jvm-heap-oom-patterns</module>
+    <module>spring-integration-allow-list-bypass</module>
   </modules>
 </project>
