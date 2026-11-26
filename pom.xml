@@ -23,5 +23,6 @@
     <module>hibernate-8-migration-basics</module>
     <module>spring-ai-tool-confirmation-resume</module>
     <module>pgvector-spring-ai-ollama</module>
+    <module>quarkus-4-jackson-3-migration</module>
   </modules>
 </project>
