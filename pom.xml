@@ -22,5 +22,6 @@
     <module>spring-integration-allow-list-bypass</module>
     <module>hibernate-8-migration-basics</module>
     <module>spring-ai-tool-confirmation-resume</module>
+    <module>pgvector-spring-ai-ollama</module>
   </modules>
 </project>
