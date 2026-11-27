@@ -25,5 +25,6 @@
     <module>pgvector-spring-ai-ollama</module>
     <module>quarkus-4-jackson-3-migration</module>
     <module>spring-ai-decision-models</module>
+    <module>spring-boot-jpa-vs-jdbc</module>
   </modules>
 </project>
