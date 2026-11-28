@@ -1,0 +1,4 @@
+{"id":"order-status","input":"Where is order 1234?","expected":"Order 1234 is shipped.","expected_tools":["lookup_order"]}
+{"id":"refund","input":"I want a refund please","expected":"I opened a refund ticket for you.","expected_tools":["create_refund_ticket"]}
+{"id":"password","input":"I forgot my password","expected":"I sent you a password reset link.","expected_tools":["send_reset_link"]}
+{"id":"order-and-refund","input":"Where is order 777 and can I get a refund?","expected":"Order 777 is shipped and a refund ticket is open.","expected_tools":["lookup_order","create_refund_ticket"]}
