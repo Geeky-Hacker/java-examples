@@ -1,0 +1,12 @@
+name: support-agent
+dataset: ./src/main/resources/goldens.jsonl
+target:
+  type: http
+  url: http://localhost:8080/run
+  output_path: $.output
+  tool_calls_path: $.tool_calls
+  timeout_s: 30
+  retries: 2
+metrics:
+  - {kind: tool_correctness, threshold: 0.8}
+  - {kind: latency, threshold: 0.5, params: {max_ms: 5000}}
