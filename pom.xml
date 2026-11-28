@@ -27,5 +27,6 @@
     <module>spring-ai-decision-models</module>
     <module>spring-boot-jpa-vs-jdbc</module>
     <module>spring-data-jpa-dto-paging</module>
+    <module>shirudo-patch-window-guard</module>
   </modules>
 </project>
